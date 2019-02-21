@@ -27,7 +27,7 @@ describe("Checking the working of the links in the header of the web page",funct
                 console.log("Channel Title is correct");
             })
         })
-
+       
     }) ;
     
 
@@ -94,12 +94,13 @@ describe("Checking the working of the links in the header of the web page",funct
 
             })
         })
-        test.waitExit(HeaderLinksTest.ChannelTitle);
+       
         browser.close();
 
 
 
     },120000);
+   
 
 
 });
