@@ -28,11 +28,14 @@ describe("Checking the Search Functionality", function () {
             console.log("working");
 
         })
+        //checking the most recent
+        test.waitClick(SearchTest.MostRecent);
+
+
         //checking the most relevant
         test.waitClick(SearchTest.Mostrelevant);
 
-        //checking the most recent
-        test.waitClick(SearchTest.MostRecent);
+
 
         test.waitExit(SearchTest.MostRecent);
 
