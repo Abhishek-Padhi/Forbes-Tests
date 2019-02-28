@@ -37,7 +37,7 @@ describe("Checking the Search Functionality", function () {
 
 
 
-        test.waitExit(SearchTest.MostRecent);
+        //test.waitExit(SearchTest.Mostrelevant);
 
     });
 

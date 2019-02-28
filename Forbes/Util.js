@@ -110,6 +110,13 @@ this.getValue=function(elem){
    });
 };
    
+//function to scroll to an element
+this.scrollTo=function scrollTo(scrollToElement) {
+   var wd = browser.driver;
+   return scrollToElement.getLocation().then(function (loc) {
+       return wd.executeScript('window.scrollTo(0,arguments[0]);', loc.y);
+   });
+};
 
 
 };
